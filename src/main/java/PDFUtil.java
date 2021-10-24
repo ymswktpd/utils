@@ -197,13 +197,14 @@ public class PDFUtil {
             PDFTextStripper stripper = new PDFTextStripper();
             // 从PDF文档对象中剥离文本
             String result = stripper.getText(pdfdocument);
-            FileWriter fileWriter = new FileWriter(new File("pdf.txt"));
-            fileWriter.write(result);
-            fileWriter.flush();
-            fileWriter.close();
+//            File tempFile = new File("pdf.txt");
+//            FileWriter fileWriter = new FileWriter(tempFile);
+//            fileWriter.write(result);
+//            fileWriter.flush();
+//            fileWriter.close();
             System.out.println("PDF文件的文本内容如下：");
             System.out.println(result);
-
+//            tempFile.delete();
         } catch (Exception e) {
             System.out.println("读取PDF文件" + file.getAbsolutePath() + "生失败！" + e);
             e.printStackTrace();
