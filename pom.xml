@@ -7,6 +7,30 @@
     <groupId>com.xj.test</groupId>
     <artifactId>pdf-trans-demo</artifactId>
     <version>1.0-SNAPSHOT</version>
-
+    <dependencies>
+    <dependency>
+        <groupId>org.apache.pdfbox</groupId>
+        <artifactId>pdfbox</artifactId>
+        <version>1.8.16</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.apache.pdfbox/fontbox -->
+    <dependency>
+        <groupId>org.apache.pdfbox</groupId>
+        <artifactId>fontbox</artifactId>
+        <version>1.8.16</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.apache.pdfbox/jempbox -->
+    <dependency>
+        <groupId>org.apache.pdfbox</groupId>
+        <artifactId>jempbox</artifactId>
+        <version>1.8.16</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/com.itextpdf/itextpdf -->
+    <dependency>
+        <groupId>com.itextpdf</groupId>
+        <artifactId>itextpdf</artifactId>
+        <version>5.5.13</version>
+    </dependency>
+</dependencies>
 
 </project>
